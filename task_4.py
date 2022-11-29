@@ -13,6 +13,5 @@ with open('file.txt', 'r') as data:
     for i in data:
         a = a * n_list[int(i)]
     print(a)
-data.close()
 
 
